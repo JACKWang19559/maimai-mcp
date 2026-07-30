@@ -1,0 +1,24 @@
+{
+  "name": "maimai-mcp",
+  "version": "0.1.0",
+  "description": "MCP server wrapping maimai-cli for AI agents to interact with Maimai (脉脉)",
+  "type": "commonjs",
+  "main": "index.js",
+  "bin": {
+    "maimai-mcp": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "maimai",
+    "脉脉",
+    "mcp",
+    "recruitment"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
